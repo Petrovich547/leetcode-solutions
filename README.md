@@ -1,9 +1,23 @@
-# Мои решения задач LeetCode
+# Мои решения задач LeetCode (C++)
 
-Решения 5 задач на C++ :
+Решения 5 задач.
 
-1. Задача 1929: Concatenation of Array (Easy) — файл 1929_concatenation_of_array.cpp
-2. Задача 1470: Shuffle the Array (Easy) — файл 1470_shuffle_the_array.cpp
-3. Задача 485: Max Consecutive Ones (Easy) — файл 485_max_consecutive_ones.cpp
-4. Задача 835: Image Overlap (Medium) — файл 835_image_overlap.cpp
-5. Задача 2265: Count Nodes Equal to Average of Subtree (Medium) — файл 2265_count_nodes_equal_to_average.cpp
+### 1. Task 1929: Concatenation of Array (Easy)
+- **Файл:** `1929_concatenation_of_array.cpp`
+- **Как работает:** Создаем новый массив двойного размера и дважды записываем в него элементы из исходного массива подряд.
+
+### 2. Task 1470: Shuffle the Array (Easy)
+- **Файл:** `1470_shuffle_the_array.cpp`
+- **Как работает:** Проходимся по массиву и поочередно берем по одному элементу из первой и второй половины, собирая их в новый массив.
+
+### 3. Task 485: Max Consecutive Ones (Easy)
+- **Файл:** `485_max_consecutive_ones.cpp`
+- **Как работает:** Идем по массиву и считаем подряд идущие единицы. Если встречается ноль — сбрасываем текущий счетчик, сохраняя максимальное значение.
+
+### 4. Task 835: Image Overlap (Medium)
+- **Файл:** `835_image_overlap.cpp`
+- **Как работает:** Находим координаты всех единиц в обеих картинках и считаем сдвиги между ними. Сдвиг, который встречается чаще всего, дает наибольшее перекрытие.
+
+### 5. Task 2265: Count Nodes Equal to Average of Subtree (Medium)
+- **Файл:** `2265_count_nodes_equal_to_average.cpp`
+- **Как работает:** Для каждого узла дерева считаем сумму всех значений и количество узлов под ним. Если их среднее арифметическое совпадает с самим узлом, прибавляем +1 к ответу.
